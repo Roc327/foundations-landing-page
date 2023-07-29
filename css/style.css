@@ -48,6 +48,17 @@ li {
 .header {
   display: flex;
   flex-direction: row;
+  margin-bottom: 64px;
+}
+
+.head-content {
+  display: flex;
+  gap: 24px;
+}
+
+.htxt-only {
+  margin-left: 64px;
+  width: 400px;
 }
 
 .hero-txt {
@@ -68,8 +79,14 @@ li {
   background-color: grey;
   display: flex;
   height: 200px;
-  width: 300px;
-  flex: 0 0;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-button {
+  margin-left: 64px;
+  margin-bottom: 64px;
 }
 
 .img-section {
