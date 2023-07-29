@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  color: #f9faf8;
+  border: 1px #3882f6;
+  border-radius: 8px;
+  background: #3882f6;
+  padding: 8px 16px;
+}
+
+button.signup2 {
+  border: 1px #f9faf8;
+}
+
+.head-section {
+  background: #1f2937;
+}
+
+.logo-txt {
+  font-size: 24px;
+  margin: auto 0;
+  margin-right: auto;
+  padding-left: 64px;
+}
+
+li {
+  color: #e5e7eb;
+  font-style: 18px;
+}
+
+.link-list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-right: 64px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-txt {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+#subtext {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.img-placeholder {
+  color: #f9faf8;
+  border: none;
+  background-color: grey;
+  display: flex;
+  height: 200px;
+  width: 300px;
+  flex: 0 0;
+}
+
+.img-section {
+}
+
+.quote-section {
+  background: #e5e7eb;
+}
+
+.quote-txt {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-sig {
+  color: black;
+}
+
+.sign-up-section {
+}
+
+.footer {
+  color: #f9faf8;
+  background: #1f2937;
+  padding: 20px 0px;
+}
