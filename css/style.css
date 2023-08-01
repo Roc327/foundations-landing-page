@@ -2,6 +2,10 @@ body {
   margin: 0px;
   display: flex;
   flex-direction: column;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
 }
 
 ul {
@@ -74,6 +78,7 @@ li {
   display: flex;
   align-items: flex-start;
   margin-bottom: 64px;
+  margin-top: 10px;
 }
 
 .img-placeholder {
@@ -87,9 +92,51 @@ li {
   align-items: center;
   flex-shrink: 0;
   margin-bottom: 64px;
+  margin-right: 64px;
 }
 
 .img-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.img-header {
+  color: #1f2937;
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+.img-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 64px;
+  margin-right: 64px;
+  gap: 64px;
+  margin-bottom: 64px;
+}
+
+.img-boxes {
+  border: 1px;
+  border-radius: 8px;
+  border: solid;
+  border-color: #3882f6;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.img-text {
+  color: #1f2937;
+  font-size: 12px;
+  max-width: 100px;
+}
+
+.img-unit {
+  display: flex;
+  flex-direction: column;
 }
 
 .quote-section {
@@ -103,15 +150,19 @@ li {
   font-size: 36px;
   font-style: italic;
   font-weight: lighter;
-  margin: 64px 64px 8px 64px;
+  margin: 64px 128px 8px 128px;
 }
 
 .quote-sig {
   color: black;
   padding: 8px;
   margin-left: auto;
-  margin-right: 64px;
+  margin-right: 128px;
   margin-bottom: 64px;
+}
+
+.sign-up-section {
+  background-color: white;
 }
 
 .signup-content {
@@ -119,7 +170,7 @@ li {
   background: #3882f6;
   border: 1px;
   border-radius: 8px;
-  margin: 64px;
+  margin: 64px 150px;
   display: flex;
 }
 
